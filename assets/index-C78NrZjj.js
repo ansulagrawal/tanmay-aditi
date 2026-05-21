@@ -9211,7 +9211,7 @@ function b0() {
 }
 var _0 = b0(),
   F = fu();
-const F0 = "/assets/weddingsong-DqLsY-0C.mp3";
+const F0 = "/assets/weddingsong-DqLsY-0C.mpeg";
 function z0() {
   const n = F.useRef(null);
   return (
@@ -16963,14 +16963,14 @@ function y2() {
               m.jsx(E.p, {
                 variants: d,
                 className:
-                  " text-[13px] md:text-2xl text-black tracking-wide font-semibold font-['Playfair_Display']",
+                  " text-[12px] md:text-2xl text-black tracking-wide font-semibold font-['Playfair_Display']",
                 children: "G.D/O Smt. Vijay Laxmi & Shri Vijay Singh Solanki",
               }),
               m.jsx(E.p, {
                 variants: d,
                 className:
-                  " text-[13px] md:text-2xl text-black tracking-wide font-semibold font-['Playfair_Display']",
-                children: "D/o Dr.(Mrs) Ajay & Dr. Ajay Solanki",
+                  " text-[12px] md:text-2xl text-black tracking-wide font-semibold font-['Playfair_Display']",
+                children: "D/o Dr.(Mrs) Ajay Kushwaha & Dr. Ajay Solanki",
               }),
               m.jsx(E.p, {
                 variants: d,
@@ -17284,11 +17284,34 @@ function v2() {
     }),
   });
 }
+// function x2() {
+//   const containerRef = F.useRef(null);
+
+//   // Replace this link with wherever you want the user to go when they click your image
+//   const clickDestinationUrl = "";
+
+//   return m.jsx("section", {
+//     ref: containerRef,
+//     className:
+//       "py-20 px-6 md:px-16 bg-gradient-to-br from-pink-50 via-cream-50 to-amber-50 flex justify-center items-center",
+//     children: m.jsx("div", {
+//       className:
+//         "w-full max-w-4xl bg-[#d8c2c5] p-4 md:p-8 rounded-2xl shadow-md",
+//       children: m.jsx("img", {
+//         src: "assets/tanmay_rsvp.png", // This is your image variable
+//         alt: "Display Content",
+//         className:
+//           "w-full h-auto rounded-xl max-h-[600px] object-cover cursor-pointer block hover:opacity-95 transition-opacity duration-200",
+//       }),
+//     }),
+//   });
+// }
+
 function x2() {
   const containerRef = F.useRef(null);
 
   // Replace this link with wherever you want the user to go when they click your image
-  const clickDestinationUrl = "https://google.com";
+  const clickDestinationUrl = "";
 
   return m.jsx("section", {
     ref: containerRef,
@@ -17296,15 +17319,28 @@ function x2() {
       "py-20 px-6 md:px-16 bg-gradient-to-br from-pink-50 via-cream-50 to-amber-50 flex justify-center items-center",
     children: m.jsx("div", {
       className:
-        "w-full max-w-4xl bg-[#d8c2c5] p-4 md:p-8 rounded-2xl shadow-md",
-      children: m.jsx("img", {
-        src: "assets/tanmay_rsvp.png", // This is your image variable
-        alt: "Display Content",
-        className:
-          "w-full h-auto rounded-xl max-h-[600px] object-cover cursor-pointer block hover:opacity-95 transition-opacity duration-200",
-        onClick: () => {
-          window.open(clickDestinationUrl, "_blank", "noopener,noreferrer");
-        },
+        "w-full max-w-4xl bg-[#d8c2c5] p-4 md:p-8 rounded-2xl shadow-md flex flex-col gap-6",
+      children: m.jsxs(m.Fragment, {
+        children: [
+          /* Text Box Container */
+          m.jsx("div", {
+            className:
+              "w-full bg-[#ccb0b4] p-8 rounded-xl text-center flex flex-col justify-center items-center",
+            children: m.jsx("p", {
+              className:
+                "text-[#786533] font-serif text-2xl md:text-4xl font-medium leading-relaxed tracking-wide selection:bg-transparent",
+              children: "Your Gracious Presence is Enthusiastically Awaited",
+            }),
+          }),
+
+          /* Image Element */
+          m.jsx("img", {
+            src: "assets/tanmay_rsvp.png", // This is your image variable
+            alt: "Display Content",
+            className:
+              "w-full h-auto rounded-xl max-h-[600px] object-cover cursor-pointer block hover:opacity-95 transition-opacity duration-200",
+          }),
+        ],
       }),
     }),
   });
@@ -17614,7 +17650,18 @@ function M2() {
               margin: "20px auto 1.5rem auto",
               display: "block",
             },
-            children: "Taj Jai Mahal palace, Jaipur",
+            children: [
+              m.jsx("span", {
+                style: { fontWeight: "normal" },
+                children: "Taj Jai Mahal Palace",
+              }),
+              // This adds the line break between the two elements
+              m.jsx("br", {}),
+              m.jsx("span", {
+                style: { fontWeight: "normal" },
+                children: "Jacob Road, Civil Lines, Jaipur",
+              }), // Explicitly set to normal font weight
+            ],
           }),
           m.jsx(E.div, {
             initial: { opacity: 0, y: 20 },
@@ -18298,7 +18345,7 @@ function F2() {
     ],
   });
 }
-const z2 = "/assets/barat.jpeg",
+const z2 = "/assets/barat.png",
   Pp = "",
   ut = "",
   Ys = "",
@@ -18517,8 +18564,12 @@ function B2() {
               m.jsx(E.h2, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
                 transition: { duration: 0.8 },
-                className: "text-5xl mb-4 pt-32 ",
-                style: { fontFamily: "Great Vibes", color: "white" },
+                className: "text-5xl mb-4",
+                style: {
+                  fontFamily: "Great Vibes",
+                  color: "voilet",
+                  marginTop: "180px",
+                },
                 children: "Sangeet",
               }),
               // m.jsx(E.p, {
@@ -18532,7 +18583,7 @@ function B2() {
               m.jsxs(E.div, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
-                className: "space-y-1 text-white font-['Cormorant']",
+                className: "space-y-1 text-voilet font-['Cormorant']",
                 children: [
                   m.jsx("p", { className: "text-lg", children: "" }),
                   m.jsxs("p", {
@@ -18541,7 +18592,7 @@ function B2() {
                       "FRI, JULY",
                       " ",
                       m.jsx("span", {
-                        className: "text-white text-2xl font-['Great Vibes']",
+                        className: "text-voilet text-2xl font-['Great Vibes']",
                         children: "3",
                       }),
                       " ",
@@ -18554,11 +18605,18 @@ function B2() {
                   }),
                   m.jsx("p", {
                     className: "text-lg mb-3",
-                    children: "The Banquet",
-                  }),
-                  m.jsx("p", {
-                    className: "text-lg mb-3",
-                    children: "Taj Jai Mahal Palace",
+                    children: [
+                      m.jsx("span", {
+                        style: { fontWeight: "bold" },
+                        children: "The Banquet",
+                      }),
+                      // This adds the line break between the two elements
+                      m.jsx("br", {}),
+                      m.jsx("span", {
+                        style: { fontWeight: "normal" },
+                        children: "Taj Jai Mahal Palace",
+                      }), // Explicitly set to normal font weight
+                    ],
                   }),
                 ],
               }),
@@ -18922,14 +18980,20 @@ function rk() {
                     className: "text-base",
                     children: "10:00 AM onwards",
                   }),
-
-                  m.jsx("p", {
-                    className: "text-base font-semibold mb-2 text-[#f97316]",
-                    children: "The Banquet",
-                  }),
                   m.jsx("p", {
                     className: "text-base mb-2 text-[#775A00]",
-                    children: "Taj Jai Mahal Palace",
+                    children: [
+                      m.jsx("span", {
+                        style: { fontWeight: "bold", color: "#f97316" },
+                        children: "The Banquet",
+                      }),
+                      // This adds the line break between the two elements
+                      m.jsx("br", {}),
+                      m.jsx("span", {
+                        style: { fontWeight: "normal" },
+                        children: "Taj Jai Mahal Palace",
+                      }), // Explicitly set to normal font weight
+                    ],
                   }),
                 ],
               }),
@@ -19070,7 +19134,7 @@ function K2() {
                 style: {
                   fontFamily: "Great Vibes",
                   color: "#B13401",
-                  marginTop: "200px",
+                  marginTop: "150px",
                 },
                 children: "Wedding Rituals",
               }),
@@ -19230,7 +19294,7 @@ function K2() {
                 style: {
                   fontFamily: "Great Vibes",
                   color: "#B13401",
-                  marginTop: "200px",
+                  marginTop: "150px",
                 },
                 children: "Wedding Rituals",
               }),
