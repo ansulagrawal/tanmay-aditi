@@ -17120,7 +17120,8 @@ function v2() {
   return m.jsx("section", {
     ref: n,
     className:
-      "min-h-dvh py-12 px-6 md:px-16 flex flex-col items-center bg-[#FAF7EE]",
+      "min-h-dvh py-12 px-6 md:px-16 flex flex-col items-center bg-[#2A1A12]",
+    style: { backgroundColor: "#2A1A12" },
     children: m.jsxs("div", {
       className:
         "max-w-6xl w-full flex flex-col md:flex-row items-center gap-10",
@@ -17214,14 +17215,15 @@ function v2() {
                     "text-[#B79B40] font-['Cormorant'] md:mb-2 md:text-xl",
                   children: "Mark Your Calendar",
                 }),
-                m.jsx("p", {
-                  style: { fontFamily: "Great Vibes" },
-                  className: "text-4xl  text-[#B79B40]",
-                  children: "Wedding Festivities",
-                }),
               ],
             }),
           ],
+        }),
+
+        m.jsx("p", {
+          style: { fontFamily: "Great Vibes" },
+          className: "text-4xl  text-[#B79B40]",
+          children: "Wedding Festivities",
         }),
         m.jsx("div", {
           className: "w-full md:w-1/2 flex justify-center",
