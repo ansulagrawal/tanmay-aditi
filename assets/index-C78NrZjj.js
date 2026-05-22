@@ -17328,7 +17328,8 @@ function x2() {
               "w-full bg-[#ccb0b4] p-8 rounded-xl text-center flex flex-col justify-center items-center",
             children: m.jsx("p", {
               className:
-                "text-[#786533] font-serif text-2xl md:text-4xl font-medium leading-relaxed tracking-wide selection:bg-transparent",
+                "text-[#786533] text-2xl md:text-4xl font-medium leading-relaxed tracking-wide selection:bg-transparent",
+              style: { fontFamily: "Great Vibes" },
               children: "Your Gracious Presence is Enthusiastically Awaited",
             }),
           }),
