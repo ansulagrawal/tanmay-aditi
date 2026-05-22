@@ -17220,11 +17220,6 @@ function v2() {
           ],
         }),
 
-        m.jsx("p", {
-          style: { fontFamily: "Great Vibes" },
-          className: "text-4xl  text-[#B79B40]",
-          children: "Wedding Festivities",
-        }),
         m.jsx("div", {
           className: "w-full md:w-1/2 flex justify-center",
           children: m.jsx(E.img, {
