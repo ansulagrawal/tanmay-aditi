@@ -16970,7 +16970,7 @@ function y2() {
                 variants: d,
                 className:
                   " text-[12px] md:text-2xl text-black tracking-wide font-semibold font-['Playfair_Display']",
-                children: "D/o Dr.(Mrs) Ajay Kushwaha & Dr. Ajay Solanki",
+                children: "D/o Dr.(Mrs) Ajay Kushwaha & Dr. Ajay Singh Solanki",
               }),
               m.jsx(E.p, {
                 variants: d,
